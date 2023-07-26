@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 20px 50px;
+    border-radius: 80px;
+    border: 3px solid black;
+}
+
+.range {
+    width: 730px;
+}
+
+.good {
+    background-color: green;
+}
+
+.moderate {
+    background-color: gold;
+}
+
+.unhealthy {
+    background-color: red;
+}
